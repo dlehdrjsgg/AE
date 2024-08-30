@@ -1,0 +1,15 @@
+Stats thread started at 0.272510
+Adding extension module BinkMediaPlayer from BinkMedia_HoloLens to BinkMedia
+
+ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-82038F434E766D393DAE9092170FE8E2
+         Session CrashGUID >====================================================
+Loading HoloLens ini files took 0.02 seconds
+Loading Android ini files took 0.02 seconds
+Loading IOS ini files took 0.02 seconds
+Loading Mac ini files took 0.02 seconds
+Loading Linux ini files took 0.03 seconds
+Loading LinuxArm64 ini files took 0.03 seconds
+Loading TVOS ini files took 0.02 seconds
+Loading VulkanPC ini files took 0.01 seconds

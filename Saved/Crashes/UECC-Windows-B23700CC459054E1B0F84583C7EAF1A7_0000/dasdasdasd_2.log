@@ -1,0 +1,31 @@
+Stats thread started at 0.688684
+Adding extension module BinkMediaPlayer from BinkMedia_HoloLens to BinkMedia
+
+ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-B23700CC459054E1B0F84583C7EAF1A7
+         Session CrashGUID >====================================================
+Loading IOS ini files took 0.07 seconds
+Loading Android ini files took 0.09 seconds
+Loading Linux ini files took 0.04 seconds
+Loading HoloLens ini files took 0.11 seconds
+Loading LinuxArm64 ini files took 0.03 seconds
+Loading TVOS ini files took 0.02 seconds
+Loading Unix ini files took 0.02 seconds
+Loading Mac ini files took 0.03 seconds
+Loading VulkanPC ini files took 0.01 seconds
+Loading Windows ini files took 0.02 seconds
+MemoryStats:
+	AvailablePhysical 1396510720
+	 AvailableVirtual 5353472
+	     UsedPhysical 227885056
+	 PeakUsedPhysical 227885056
+	      UsedVirtual 158810112
+	  PeakUsedVirtual 158928896
+Allocator Stats for Mimalloc: (not implemented)
+appError called: Fatal error: [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\GenericPlatform\GenericPlatformMemory.cpp] [Line: 241] 
+Ran out of memory allocating 1848 bytes with alignment 8. Last error msg: 이 작업을 완료하기 위한 페이징 파일이 너무 작습니다..
+
+
+
+Windows GetLastError: 작업을 완료했습니다. (0)

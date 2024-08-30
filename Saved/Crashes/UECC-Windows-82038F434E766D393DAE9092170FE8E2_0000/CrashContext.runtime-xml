@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>D1A065404D7EABE1AF267FA103D90802</ExecutionGuid>
+		<CrashGUID>UECC-Windows-82038F434E766D393DAE9092170FE8E2_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>12248</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-AE</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.2.1-26001984+++UE5+Release-5.2</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>ko-KR</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.2-CL-26001984</BuildVersion>
+		<Symbols>**UE5*Release-5.2-CL-26001984-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>E:/새 폴더/UE_5.2/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>E:/새 폴더/UE_5.2/</RootDir>
+		<MachineId>4451B53E48938BC5252F2BA3A9E1ED01</MachineId>
+		<LoginId>4451b53e48938bc5252f2ba3a9e1ed01</LoginId>
+		<EpicAccountId>6a03b9ee8a6a45478f41fb35a35a8d21</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>6</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 3500 6-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1660</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (22H2) [10.0.22621.3593]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17106173952</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>23674396672</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+kernel32
+ntdll</CallStack>
+		<PCallStack>UnrealEditor-Core 0x00007ffe4e830000 + 7b13cc XINPUT1_3 0x0000000000400000 + ad031c53000 Unknown 0x0000000000000000 + 10</PCallStack>
+		<PCallStackHash>78888205C5875BCB470A3F050526D8721F66F1FA</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + a0ac4 ntdll 0x00007ffe86b90000 + 74822 Unknown 0x0000000000000000 + 4 ntdll 0x00007ffe86b90000 + 7450a Unknown 0x0000000000000000 + 5</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4976</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + a35a4 ntdll 0x00007ffe86b90000 + 3537e XINPUT1_3 0x0000000000400000 + 25913eb7470 XINPUT1_3 0x0000000000400000 + 25913eb7470 Unknown 0x0000000000000000 + 1 XINPUT1_3 0x0000000000400000 + 25913eba9b0 XINPUT1_3 0x0000000000400000 + c1a3affcd8 XINPUT1_3 0x0000000000400000 + c1a3affae2 XINPUT1_3 0x0000000000400000 + 10100c10001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8000</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + a35a4 ntdll 0x00007ffe86b90000 + 3537e XINPUT1_3 0x0000000000400000 + 25913eb7470 XINPUT1_3 0x0000000000400000 + 25913eb7470 Unknown 0x0000000000000000 + 1 XINPUT1_3 0x0000000000400000 + 25913ebefe0 XINPUT1_3 0x0000000000400000 + c1a467f7f8 XINPUT1_3 0x0000000000400000 + c1a467f602 XINPUT1_3 0x0000000000400000 + 10100c10001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2300</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + a35a4 ntdll 0x00007ffe86b90000 + 3537e XINPUT1_3 0x0000000000400000 + 25913eb7470 XINPUT1_3 0x0000000000400000 + 25913eb7470 Unknown 0x0000000000000000 + 1 XINPUT1_3 0x0000000000400000 + 25913ebf730 XINPUT1_3 0x0000000000400000 + c1a51ff7d8 XINPUT1_3 0x0000000000400000 + c1a51ff5e2 XINPUT1_3 0x0000000000400000 + 10100c10001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8132</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + a0254 KERNELBASE 0x00007ffe83eb0000 + 78bc6 XINPUT1_3 0x0000000000400000 + c0ffc00000 XINPUT1_3 0x0000000000400000 + c1a5d7d3d8</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5680</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9ffd4 ntdll 0x00007ffe86b90000 + 551a3</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7736</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e Unknown 0x0000000000000000 + 18 UnrealEditor-Core 0x00007ffe4e830000 + 22715a Unknown 0x0000000000000000 + 10 XINPUT1_3 0x0000000000400000 + ad02f4d0000 XINPUT1_3 0x0000000000400000 + 25917d49ad8 UnrealEditor-Core 0x00007ffe4e830000 + ff4980 Unknown 0x0000000000000000 + 48 XINPUT1_3 0x0000000000400000 + 1fffffc00001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8808</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e XINPUT1_3 0x0000000000400000 + 25917d4c378 UnrealEditor-Core 0x00007ffe4e830000 + 4bda80 UnrealEditor-Core 0x00007ffe4e830000 + ff4980 XINPUT1_3 0x0000000000400000 + 1fffffc00000 XINPUT1_3 0x0000000000400000 + 25917d4c330 XINPUT1_3 0x0000000000400000 + 25916a30060 Unknown 0x0000000000000000 + 48 UnrealEditor 0x00007ff75c660000 + 6a39a0001</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6616</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e UnrealEditor-Projects 0x00007ffe5fed0000 + 1d803 XINPUT1_3 0x0000000000400000 + c1a8b7f9d2 XINPUT1_3 0x0000000000400000 + 259169600b8 UnrealEditor-Core 0x00007ffe4e830000 + 428584 XINPUT1_3 0x0000000000400000 + c1a8b7fab0</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9596</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>UnrealEditor-Core 0x00007ffe4e830000 + 7b13cc XINPUT1_3 0x0000000000400000 + ad031c53000 Unknown 0x0000000000000000 + 10</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>3328</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e UnrealEditor-Projects 0x00007ffe5fed0000 + 1d803 XINPUT1_3 0x0000000000400000 + c1aa27f862 XINPUT1_3 0x0000000000400000 + 259169200b8 UnrealEditor-Core 0x00007ffe4e830000 + 428584 XINPUT1_3 0x0000000000400000 + c1aa27f940</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3248</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12204</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>884</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6720</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3280</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11324</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7180</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9f9d4 KERNELBASE 0x00007ffe83eb0000 + 3427e</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4684</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffe86b90000 + 9ffd4 ntdll 0x00007ffe86b90000 + 551a3 UnrealEditor-Core 0x00007ffe4e830000 + 10106b0 XINPUT1_3 0x0000000000400000 + 2157df6492 ntdll 0x00007ffe86b90000 + 7256e36ff2ba4146 Unknown 0x0000000000000000 + c Unknown 0x0000000000000000 + a KERNELBASE 0x00007ffe83eb0000 + 44e1d</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1000</ThreadID>
+				<ThreadName>FAsyncWriter_AE</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638585637466710000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 11 (22H2) [10.0.22621.3593]  64b]</PlatformFullName>
+		<CPUBrand>AMD Ryzen 5 3500 6-Core Processor</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor.exe
+E:\새 폴더\UE_5.2\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64\UnrealEditor-VariantManagerContent.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\ThirdParty\Python3\Win64\python39.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoOpenSSL.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\Developer\PlasticSourceControl\Binaries\Win64\UnrealEditor-PlasticSourceControl.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64\UnrealEditor-PerforceSourceControl.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\XGEController\Binaries\Win64\UnrealEditor-XGEController.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnimationModifiers.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\ThirdParty\libsndfile\Win64\libsndfile-1.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MessageLog.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SlateRHIRenderer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SequenceRecorder.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MovieSceneTools.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ContentBrowser.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Sequencer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Renderer.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\UnrealEditor-PythonScriptPluginPreload.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Virtualization.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-LiveLinkInterface.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-GameplayDebugger.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoTypes.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\FastBuildController\Binaries\Win64\UnrealEditor-FastBuildController.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-StreamingFile.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-StorageServerClient.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MovieSceneCapture.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MRMesh.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AVIWriter.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AIModule.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-NetworkFile.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-GameplayTasks.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AugmentedReality.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SequencerCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-VirtualTexturingEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ComponentVisualizers.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SerializedRecorderInterface.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioSettingsEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ConfigEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-InternationalizationSettings.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ContentBrowserData.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Navmesh.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-HeadMountedDisplay.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Constraints.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnimationCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ClassViewer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SourceControlWindows.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DetailCustomizations.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DesktopWidgets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesEngine.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-UnsavedAssetsTracker.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DerivedDataEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-CommonMenuExtensions.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorConfig.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorStyle.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SceneOutliner.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnimGraphRuntime.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-KismetCompiler.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-GeometryCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-WidgetCarousel.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MediaAssets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-KismetWidgets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AdvancedPreviewScene.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Voronoi.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Networking.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-HardwareTargeting.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cbor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceSpecification.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SharedSettingsWidgets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SceneDepthPickerMode.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ActorPickerMode.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnimationEditMode.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-UELibSampleRate.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MaterialBaking.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AssetTools.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ToolWidgets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PhysicsUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SubobjectEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SubobjectDataInterface.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-InterchangeEngine.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-InterchangeCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-StatusBar.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-InteractiveToolsFramework.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-NavigationSystem.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SourceControl.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MovieSceneTracks.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-LevelEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-GraphEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PropertyEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Engine.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnimationBlueprintLibrary.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TraceServices.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-IoStoreUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MaterialEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorInteractiveToolsFramework.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ChaosCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesCommon.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-BlueprintEditorLibrary.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-RSA.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-HTTPServer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MovieScene.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PropertyPath.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ReliabilityHandlerComponent.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TraceAnalysis.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ToolMenus.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-UncontrolledChangelists.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TimeManagement.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PakFileUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioLinkEngine.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SoundFieldRendering.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-VREditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-GameProjectGeneration.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ImageWrapper.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorSubsystem.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceProfileSelector.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ViewportInteraction.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AddContentDialog.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-UnrealEdMessages.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorFramework.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Localization.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-FoliageEdit.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DirectoryWatcher.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Foliage.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeCommon.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorWidgets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-StatsViewer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-CurveEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-BlueprintGraph.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnimGraph.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\libfbxsdk.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SSL.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SandboxFile.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshUtilitiesCommon.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DataLayerEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-LevelSequence.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-BuildPatchServices.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-IrisCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Chaos.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Kismet.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PhysicsCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PakFile.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-StaticMeshDescription.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MeshDescription.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AssetRegistry.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-UMG.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Landscape.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-GameplayTags.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-CinematicCamera.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Zen.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AppFramework.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-HTTP.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-UnrealEd.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DerivedDataCache.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SlateCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Slate.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Core.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AssetDefinition.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-BSPUtils.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-NetCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-RHI.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-RenderCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-CoreUObject.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-CookOnTheFly.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SignalProcessing.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-HierarchicalLODUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MaterialUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AnalyticsET.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioMixer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioExtensions.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TextureUtilitiesCommon.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TypedElementFramework.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ScriptDisassembler.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeInterface.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AssetTagsEditor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-JsonUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MaterialShaderQualitySettings.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-InstallBundleManager.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ApplicationCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Json.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ImageWriteQueue.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DeveloperSettings.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Sockets.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SwarmInterface.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-IESFile.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Media.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-InputCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshDescription.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TypedElementRuntime.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Projects.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TextureBuildUtilities.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioLinkCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ImageCore.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PacketHandler.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EngineSettings.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TextureCompressor.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DesktopPlatform.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioPlatformConfiguration.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-DeveloperToolSettings.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EngineMessages.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MediaUtils.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-CoreOnline.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PreLoadScreen.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-PerfCounters.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditorInterface.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Icmp.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-RawMesh.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-XmlParser.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Analytics.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-AudioMixerCore.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\AI\AISupport\Binaries\Win64\UnrealEditor-AISupportModule.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\ThirdParty\Python3\Win64\python3.dll
+E:\새 폴더\UE_5.2\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCrypto.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\ThirdParty\Windows\WinPixEventRuntime\x64\WinPixEventRuntime.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-EditorAnalyticsSession.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-ColorManagement.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-BuildSettings.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MoviePlayer.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-TraceLog.dll
+E:\새 폴더\UE_5.2\Engine\Binaries\Win64\UnrealEditor-MoviePlayerProxy.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData />
+	<GameData />
+</FGenericCrashContext>
